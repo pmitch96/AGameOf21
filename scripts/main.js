@@ -33,6 +33,7 @@ theButton.onclick = function() {
     if (p1HandTotal > 21){
         alert('GAME OVER!');
         theButton.disabled = true;
+        Stick1.disabled = true;
     }
 }
 
