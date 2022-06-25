@@ -58,7 +58,7 @@ ResetButton.onclick = function(){
     let dealerNewCard = getRandomItem(simpleDeck);
 
     theButton.disabled = false;
-    Stick1.disabled
+    Stick1.disabled = false;
 
     dealerBody.innerHTML = 'Dealer Hand: ' + dealerNewCard + ', ';
     theBody.innerHTML = 'Player Hand: ';
