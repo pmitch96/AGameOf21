@@ -1,0 +1,59 @@
+#Button1{
+    width: 100px;
+    height: 100x;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: green;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    opacity: 0.75;
+    transition-duration: 0.4s;
+}
+#Button1:hover{
+    opacity: 1;
+}
+
+#Stick1{
+    width: 100px;
+    height: 100x;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: red;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    opacity: 0.75;
+    transition-duration: 0.4s;
+}
+#Stick1:hover{
+    opacity: 1;
+}
+
+#BodyForButton1{
+    text-indent: 10px;
+    margin-top: 10px;
+}
+
+
+#BodyForOutput1{
+    text-indent: 10px;
+}
+
+
+#ResetButton{
+    width: 300px;
+    height: 100x;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    opacity: 0.75;
+    transition-duration: 0.4s;
+}
+
+#ResetButton:hover{
+    opacity: 1;
+}
